@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+	
+
+<head>
+		<meta charset="utf-8">
+		<title>Premix Summit | Register </title>
+		<!-- Mobile Meta -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->   
+		<meta name="description" content="Clarity is a Bootstrap-based, Responsive HTML5 Template">
+		<meta name="author" content="bootstrapwizard.info">
+					
+		<!-- Font Awesome CSS -->
+		<link href="{% static 'css/font-awesome/font-awesome.min.css' %}" rel="stylesheet">
+		
+		<!-- Simple Line Icons -->
+		<link href="{% static 'css/simple-line-icons/simple-line-icons.css' %}" rel="stylesheet">
+		
+		<!-- Bootstrap main CSS -->
+		<link href="{% static 'css/bootstrap/bootstrap.min.css' %}" rel="stylesheet">
+			
+		<!-- Web Fonts  -->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		
+		<!-- yamm3 -->
+		<link href="{% static 'css/yamm.css' %}" rel="stylesheet">
+			
+		<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+		<link rel="stylesheet" type="text/css" href="{% static 'plugins/rs-plugin/css/settings.css' %}" media="screen" />
+		
+		<!-- Animate -->
+		<link href="{% static 'css/animate/animate.min.css' %}" rel="stylesheet">
+		
+		<!-- owl-carousel -->
+		<link href="{% static 'plugins/owl-carousel/owl.carousel.css' %}" rel="stylesheet">
+		<link href="{% static 'plugins/owl-carousel/owl.theme.css' %}" rel="stylesheet">
+		
+		<!-- magnific-popup -->
+		<link href="{% static 'plugins/magnific-popup/magnific-popup.css' %}" rel="stylesheet">
+		
+		<!-- flexslider -->
+		<link href="{% static 'plugins/flexslider/flexslider.css' %}" rel="stylesheet">
+		
+		<!-- morris -->
+		<link href="{% static 'plugins/morris/morris.css' %}" rel="stylesheet">
+		
+		<!-- Hover -->
+		<link href="{% static 'css/hover/hover.min.css' %}" rel="stylesheet">
+		
+		<!-- prettify  -->
+		<script src="../../../google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>		
+		<link href="{% static 'css/prettify/prettify.css' %}" rel="stylesheet">
+		
+		<!-- style -->
+		<link href="{% static 'css/style.css' %}" rel="stylesheet">
+		
+		<!-- switcher -->
+		<link href="{% static 'switcher/switcher.css' %}" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="{% static 'css/colors/blue.css' %}" id="colors">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    
+	<body class="wide">
+    	
+		<!-- wrapper -->
+		<div class="wrapper">
+		
+			<!-- Preloader -->
+			<div id="preloader">
+				<div id="status">&nbsp;</div>
+			</div>
+			<!-- //Preloader -->
+			
+			<!-- scrollToTop -->	
+			<a href="#" class="scrollToTop">
+				<i class="fa fa-angle-up fa-2x"></i>
+			</a>
+			<!-- ./scrollToTop -->
+		
+			<!-- header -->
+			<header id="header">
+			
+				<!-- top-header -->
+				<div class="top-header bg-white hidden-xs">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<ul class="list-inline pull-left">
+									<li><i class="fa fa-map-marker"></i> &nbsp; Nairobi, Kenya</li>
+									<li><i class="fa fa-phone"></i>&nbsp; +254 20-000000 </li>
+									<li><i class="fa fa-envelope-o"></i>&nbsp; info@premixsummit.or.ke</li>
+								</ul>
+							</div>
+							<div class="col-md-6">
+								<ul class="list-inline pull-right">
+									<li><a href="https://www.facebook.com/novonordisk/?fref=ts" class="icon-holder small circle" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="https://twitter.com/novonordisk" class="icon-holder small circle" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://www.linkedin.com/company/novo-nordisk?trk=top_nav_home" class="icon-holder small circle" target="_parent"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="https://www.youtube.com/user/novonordisk" class="icon-holder small circle" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //top-header -->
+		
+				
+				<!-- navbar -->
+				<div class="navbar navbar-v1 stay-top padd-tb-30 yamm" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="home-business.html"><img src="{% static 'img/logo.png' %}" alt="Clarity"></a>
+							<!--<a class="navbar-brand" href="#"><span>c</span>larity</a>-->   
+						</div>
+                        
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">				 
+					  <ul class="nav navbar-nav navbar-right">
+						<li><a href="/">Home</a></li>
+						<li><a href="/premix">About Premix Summit</a></li>
+						<li><a href="/register">Register</a></li>
+						<!-- <li><a data-scroll href="#pricing">careers</a></li> -->
+						<li><a href="/contact">Contact Us</a></li>
+                          
+                        <!-- dropdown-search -->
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+									<div class="dropdown-menu dropdown-menu-right dropdown-search">									
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Search for...">
+											<span class="input-group-btn">
+												<button class="btn btn-theme" type="button">Search</button>
+											</span>
+										</div>									
+									</div>
+								</li>
+								<!-- //dropdown-search -->	  
+					  </ul>
+					</div>
+						<!--/.nav-collapse -->
+											
+					</div><!-- ./container -->
+				</div>
+				<!-- //navbar -->
+				
+				
+			</header>
+			<!-- /header -->
+			
+			
+
+						
+			<section class="padd-tb-30">
+				<div class="container" align="center">
+				
+					
+						<div class="col-md-6">
+							<h4>Register Now!</h4>
+							
+							<div class="padd-20 bg-gray">							
+								<form method = "POST" action="/register/add_user/">
+                                    {% csrf_token %}
+                                    
+                                    <div class="row padd-tb-10">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label>Title</label>
+												<select class="form-control" name="title">
+												  <option>MR.</option>
+												  <option>MRS.</option>
+												  <option>Dr.</option>
+                                                <option>SIR.</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row padd-tb-10">
+										<div class="form-group">
+											<div class="col-md-6 col-sm-6">
+												<label>First Name</label>
+												<input type="text" class="form-control"  placeholder="" name="fname">
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<label>Last Name</label>
+												<input type="text" class="form-control"  placeholder="" name="lname">
+											</div>
+										</div>
+									</div>
+									<div class="row padd-tb-10">
+										<div class="form-group">
+											<div class="col-md-6 col-sm-6">
+												<label>Email</label>
+												<input type="email" class="form-control"  placeholder="" name="email">
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<label>Phone</label>
+												<input type="text" class="form-control"  placeholder="" name="phoneNo">
+											</div>
+										</div>
+									</div>
+									<div class="row padd-tb-10">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label>Special dietary requirements</label>
+												<select class="form-control" name="diet">
+												  <option>None</option>
+												  <option>Vegetarian</option>
+												  <option>Halaal</option>
+
+												</select>
+											</div>
+										</div>
+									</div>
+									
+                                    <div class="row padd-tb-10">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label>Medical Practice Number</label>
+												<input type="text" class="form-control" name="medNo">
+											</div>
+										</div>
+									</div>
+									<div class="row padd-tb-10">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label>Practice Address</label>
+												<textarea class="form-control" rows="4" name="practAd"></textarea>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row padd-tb-10">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label for="exampleInputFile">Profile</label>
+												<input type="file" id="exampleInputFile" name="prof">
+												<p class="help-block">Max file size: 10Mb (zip/pdf/jpg/png)</p>
+											</div>	
+										 </div>
+									 </div>
+						  
+									<button type="submit" class="btn btn-theme btn-block btn-lg">Register</button>
+								</form>
+							</div>
+						
+						</div>
+													
+					</div><!-- ./row -->
+																			
+				</div><!-- ./container -->
+			</section>
+			
+			
+			
+			<!-- footer-sub -->
+			<div class="footer-sub bg-light-dark padd-tb-10">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="copyright">
+								2016 &copy; All Rights Reserved. 
+							</div>
+						</div>
+						<div class="col-md-6">
+							<ul class="list-inline pull-right">
+								<li><a href="https://www.facebook.com/novonordisk/?fref=ts" class="icon-holder small circle" target="_blank"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/novonordisk" class="icon-holder small circle" target="_blank"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/novo-nordisk?trk=top_nav_home" class="icon-holder small circle" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://www.youtube.com/user/novonordisk" class="icon-holder small circle" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+							</ul>
+						</div>	
+					</div><!-- ./row -->
+				</div><!-- ./container -->
+			</div>
+			<!-- ./footer-sub -->
+						
+				
+		</div>
+		<!-- //wrapper -->
+		
+						
+			
+		
+		
+					
+		<!-- jquery -->
+		<script src="{% static 'js/jquery-1.11.3.min.js' %}"></script>	
+		<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	
+		<!-- morris -->	
+		<script src="../../../cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+		<script type="text/javascript" src="{% static 'plugins/morris/morris.min.js' %}"></script>  
+		
+		<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+		<script type="text/javascript" src="{% static 'plugins/rs-plugin/js/jquery.themepunch.tools.min.js' %}"></script>  
+		<script type="text/javascript" src="{% static 'plugins/rs-plugin/js/jquery.themepunch.revolution.min.js' %}"></script>
+		
+		<!-- validator  -->
+		<script type="text/javascript" src="{% static 'plugins/validator/validator.min.js' %}"></script> 
+		<script type="text/javascript" src="{% static 'plugins/validator/form-scripts.js' %}"></script> 
+			
+		<!-- magnific-popup -->
+		<script type="text/javascript" src="{% static 'plugins/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+		
+		<!-- owl-carousel -->
+		<script type="text/javascript" src="{% static 'plugins/owl-carousel/owl.carousel.min.js' %}"></script>
+		
+		<!-- wow -->
+		<script type="text/javascript" src="{% static 'plugins/wow/wow.js' %}"></script>
+		
+		<!-- appear -->
+		<script type="text/javascript" src="{% static 'plugins/appear/jquery.appear.js' %}"></script>
+		
+		<!-- waypoints -->
+		<script type="text/javascript" src="{% static 'plugins/waypoints/jquery.waypoints.min.js' %}"></script>
+				
+		<!-- counter-up -->
+		<script type="text/javascript" src="{% static 'plugins/counterup/jquery.counterup.min.js' %}"></script>
+		
+		<!-- countdown -->
+		<script type="text/javascript" src="{% static 'plugins/countdown/jquery.countdown.min.js' %}"></script> 
+		
+		<!-- gmaps  -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+		<script type="text/javascript" src="{% static 'plugins/gmaps/gmaps.js' %}"></script>	  
+	
+		<!-- smooth-scroll -->
+		<script type="text/javascript" src="{% static 'plugins/smooth-scroll/smooth-scroll.js' %}"></script> 
+		
+		<!-- flexslider -->
+		<script type="text/javascript" src="{% static 'plugins/flexslider/jquery.flexslider-min.js' %}"></script> 
+		
+
+		<!-- switcher -->
+		<script type="text/javascript" src="{% static 'switcher/switcher.js' %}"></script> 
+		
+		<!-- main -->		
+		<script src="{% static 'js/main.js' %}"></script>
+		
+			
+	</body>
+
+<!-- Mirrored from bootstrapwizard.info/Theme/clarity/pages-career.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Apr 2016 11:51:59 GMT -->
+</html>
+			
+			
+			
+			
+		
